@@ -165,7 +165,7 @@ const Header = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 			<div className="container">
 				<div className="header-row">
 					<a href="#" className="logo" tabIndex="0" aria-label="Focus Reactive - Return to homepage">
-						<img src="/img/logo.svg" className="logo__img" alt="Focus Reactive logo" width="114" height="40" />
+						<img src="img/logo.svg" className="logo__img" alt="Focus Reactive logo" width="114" height="40" />
 					</a>
 
 					<nav className={`menu ${isMobileMenuOpen ? "open" : ""}`} role="navigation" aria-label="Main navigation">

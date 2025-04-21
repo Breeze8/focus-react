@@ -10,7 +10,7 @@ const galleryItems = [
 		title: "Calvin Klein 1",
 		description:
 			"An Iconic Shopify Online Store Reborn An Iconic Shopify Online Store Reborn An Iconic Shopify Online Store RebornAn Iconic Shopify Online Store RebornAn Iconic Shopify Online Store RebornAn Iconic Shopify Online Store RebornAn Iconic Shopify Online Store Reborn",
-		image: "/img/gallery-1.webp",
+		image: "img/gallery-1.webp",
 		tags: [
 			"UX Consultancy",
 			"Perfomance",
@@ -27,21 +27,21 @@ const galleryItems = [
 		id: 2,
 		title: "Calvin Klein 2",
 		description: "An Iconic Shopify Online Store Reborn",
-		image: "/img/gallery-1.webp",
+		image: "img/gallery-1.webp",
 		tags: ["UX Consultancy", "Perfomance", "Technical SEO & Data Layer"],
 	},
 	{
 		id: 3,
 		title: "Calvin Klein 3",
 		description: "An Iconic Shopify Online Store Reborn",
-		image: "/img/gallery-1.webp",
+		image: "img/gallery-1.webp",
 		tags: ["UX Consultancy", "Perfomance", "Technical SEO & Data Layer"],
 	},
 	{
 		id: 4,
 		title: "Calvin Klein 4",
 		description: "An Iconic Shopify Online Store Reborn",
-		image: "/img/gallery-1.webp",
+		image: "img/gallery-1.webp",
 		tags: ["UX Consultancy", "Perfomance", "Technical SEO & Data Layer"],
 	},
 ];

@@ -7,7 +7,7 @@ const Footer = () => {
 			<div className="container">
 				<div className="footer__content">
 					<div className="footer__logo">
-						<img src="/img/clutch-logo.svg" className="footer__logo-image" alt="Focus Reactive ratings on Clutch platform" width="197" height="104" />
+						<img src="img/clutch-logo.svg" className="footer__logo-image" alt="Focus Reactive ratings on Clutch platform" width="197" height="104" />
 					</div>
 					<h3 className="h3 footer__title">
 						Our{" "}

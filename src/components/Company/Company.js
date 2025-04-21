@@ -6,22 +6,25 @@ import "./Company.css";
 import "swiper/css";
 
 const companyImages = [
-	{ src: "/img/company-1.webp", alt: "Partner company logo EasyPark", width: 118, height: 29 },
-	{ src: "/img/company-2.webp", alt: "Partner company logo Tipico", width: 92, height: 30 },
-	{ src: "/img/company-3.webp", alt: "Partner company logo Caleffi", width: 98, height: 59 },
-	{ src: "/img/company-4.webp", alt: "Partner company logo TrafficGuard", width: 122, height: 61 },
-	{ src: "/img/company-5.webp", alt: "Partner company logo GitNation", width: 114, height: 39 },
-	{ src: "/img/company-6.webp", alt: "Partner company logo Secret Escapes", width: 123, height: 38 },
-	{ src: "/img/company-7.webp", alt: "Partner company logo Bargreen Ellingson", width: 132, height: 68 },
+	{ src: "img/company-1.webp", alt: "Partner company logo EasyPark", width: 118, height: 29 },
+	{ src: "img/company-2.webp", alt: "Partner company logo Tipico", width: 92, height: 30 },
+	{ src: "img/company-3.webp", alt: "Partner company logo Caleffi", width: 98, height: 59 },
+	{ src: "img/company-4.webp", alt: "Partner company logo TrafficGuard", width: 122, height: 61 },
+	{ src: "img/company-5.webp", alt: "Partner company logo GitNation", width: 114, height: 39 },
+	{ src: "img/company-6.webp", alt: "Partner company logo Secret Escapes", width: 123, height: 38 },
+	{ src: "img/company-7.webp", alt: "Partner company logo Bargreen Ellingson", width: 132, height: 68 },
 
-	{ src: "/img/company-1.webp", alt: "Partner company logo EasyPark", width: 118, height: 29 },
-	{ src: "/img/company-2.webp", alt: "Partner company logo Tipico", width: 92, height: 30 },
-	{ src: "/img/company-3.webp", alt: "Partner company logo Caleffi", width: 98, height: 59 },
-	{ src: "/img/company-4.webp", alt: "Partner company logo TrafficGuard", width: 122, height: 61 },
-	{ src: "/img/company-5.webp", alt: "Partner company logo GitNation", width: 114, height: 39 },
-	{ src: "/img/company-6.webp", alt: "Partner company logo Secret Escapes", width: 123, height: 38 },
-	{ src: "/img/company-7.webp", alt: "Partner company logo Bargreen Ellingson", width: 132, height: 68 },
+	{ src: "img/company-1.webp", alt: "Partner company logo EasyPark", width: 118, height: 29 },
+	{ src: "img/company-2.webp", alt: "Partner company logo Tipico", width: 92, height: 30 },
+	{ src: "img/company-3.webp", alt: "Partner company logo Caleffi", width: 98, height: 59 },
+	{ src: "img/company-4.webp", alt: "Partner company logo TrafficGuard", width: 122, height: 61 },
+	{ src: "img/company-5.webp", alt: "Partner company logo GitNation", width: 114, height: 39 },
+	{ src: "img/company-6.webp", alt: "Partner company logo Secret Escapes", width: 123, height: 38 },
+	{ src: "img/company-7.webp", alt: "Partner company logo Bargreen Ellingson", width: 132, height: 68 },
 ];
+
+
+
 
 const Company = () => {
 	const swiperRef = useRef(null);
