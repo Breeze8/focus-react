@@ -1,0 +1,32 @@
+.company {
+  padding: 121px 0 120px;
+}
+
+.company-slider .swiper-wrapper {
+  transition-timing-function: linear !important;
+  align-items: center;
+}
+
+.company-slider .swiper-slide {
+  width: 192px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1199.98px) {
+  .company {
+    padding: 100px 0;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .company {
+    padding-bottom: 0;
+  }
+  
+  .company-slider .swiper-slide {
+    width: 132px;
+  }
+}

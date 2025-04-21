@@ -1,0 +1,147 @@
+.btn {
+  display: inline-block;
+  transition: all .35s ease;
+  font-size: 14px;
+  font-family: InterDisplayMedium, sans-serif;
+  text-align: center;
+  border-radius: 999px;
+  padding: 14px 24px;
+  line-height: 1;
+  letter-spacing: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-green {
+  background: var(--green);
+  color: var(--black);
+}
+
+.btn-large {
+  font-size: 24px;
+  font-family: InterDisplaySemiBold, sans-serif;
+  padding: 46px 64px;
+}
+
+.btn-text {
+  position: relative;
+  z-index: 5;
+}
+
+.btn_hero {
+  margin-left: 12px;
+  margin-top: 6px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.bubble {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.bubble-circle {
+  background-color: red;
+  border-radius: 1000px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  margin-left: 0;
+  margin-top: 0;
+  pointer-events: none;
+}
+
+.bubble-circle.explode-circle {
+  animation: explode .5s forwards;
+}
+
+.bubble-circle.desplode-circle {
+  animation: desplode .5s forwards;
+}
+
+@keyframes explode {
+  0% {
+    width: 0;
+    height: 0;
+    margin-left: 0;
+    margin-top: 0;
+    background-color: #fff;
+  }
+  100% {
+    width: 700px;
+    height: 700px;
+    margin-left: -350px;
+    margin-top: -350px;
+    background-color: #fff;
+  }
+}
+
+@keyframes desplode {
+  0% {
+    width: 700px;
+    height: 700px;
+    margin-left: -350px;
+    margin-top: -350px;
+    background-color: #fff;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    margin-left: 0;
+    margin-top: 0;
+    background-color: #fff;
+  }
+}
+
+@media only screen and (max-width: 1439.98px) {
+  .btn-large {
+    padding: 40px 62px;
+  }
+}
+
+@media only screen and (max-width: 1199.98px) {
+  .btn-large {
+    padding: 26px 48px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1023.98px) {
+  .btn-large {
+    padding: 20px 48px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .btn-large {
+    padding: 15px 24px;
+  }
+  
+  .btn_hero {
+    margin-left: 0;
+    margin-top: 12px;
+    width: 100%;
+    max-width: 468px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .btn_header {
+    margin-left: auto;
+    margin-right: 24px;
+  }
+}
+
+@media only screen and (max-width: 520.98px) {
+  .btn_hero {
+    max-width: 335px;
+  }
+}
